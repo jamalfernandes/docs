@@ -11,18 +11,20 @@
   "navigation": {
     "groups": [
       {
-        "group": "Le kit",
+        "group": "The kit",
         "pages": [
           "index",
           "textes",
           "mails",
           "visuels",
+          "exemples",
+          "charte",
           "guide",
           "faq"
         ]
       },
       {
-        "group": "Interne · à retirer avant diffusion",
+        "group": "Internal · remove before distribution",
         "icon": "triangle-alert",
         "pages": [
           "a-resoudre"
@@ -35,7 +37,11 @@
     "dark": "/logo/cyruss.png"
   },
   "navbar": {
-    "links": []
+    "primary": {
+      "type": "button",
+      "label": "cyruss.ai",
+      "href": "https://cyruss.ai"
+    }
   },
   "contextual": {
     "options": [
@@ -50,11 +56,61 @@
     ]
   },
   "footer": {
-    "socials": {}
+    "links": [
+      {
+        "header": "The kit",
+        "items": [
+          {
+            "label": "Ready-to-paste posts",
+            "href": "/textes"
+          },
+          {
+            "label": "Ready-to-send emails",
+            "href": "/mails"
+          },
+          {
+            "label": "Visuals",
+            "href": "/visuels"
+          }
+        ]
+      },
+      {
+        "header": "Reference",
+        "items": [
+          {
+            "label": "CYRUSS brand charter",
+            "href": "/charte"
+          },
+          {
+            "label": "Usage guide",
+            "href": "/guide"
+          },
+          {
+            "label": "Questions you'll be asked",
+            "href": "/faq"
+          }
+        ]
+      }
+    ]
   },
-  "description": "Kit de partage pour les agents et partenaires du réseau CYRUSS. Textes prêts à coller, briefs visuels et guide d'usage.",
+  "description": "Sharing kit for the agents and partners of the CYRUSS network. Ready-to-paste posts, visual briefs and a usage guide.",
   "appearance": {
-    "default": "light",
-    "strict": true
+    "default": "light"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Figtree",
+      "weight": 700
+    },
+    "body": {
+      "family": "Figtree"
+    }
+  },
+  "banner": {
+    "content": "**Kit v2 · English review version.** Referral codes are not live yet. Do not publish your link.",
+    "dismissible": true
+  },
+  "icons": {
+    "library": "lucide"
   }
 }
