@@ -11,7 +11,7 @@
   "navigation": {
     "groups": [
       {
-        "group": "Le kit",
+        "group": "The kit",
         "pages": [
           "index",
           "textes",
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "group": "Interne · à retirer avant diffusion",
+        "group": "Internal · remove before distribution",
         "icon": "triangle-alert",
         "pages": [
           "a-resoudre"
@@ -58,42 +58,42 @@
   "footer": {
     "links": [
       {
-        "header": "Le kit",
+        "header": "The kit",
         "items": [
           {
-            "label": "Textes prêts à coller",
+            "label": "Ready-to-paste posts",
             "href": "/textes"
           },
           {
-            "label": "Mails prêts à envoyer",
+            "label": "Ready-to-send emails",
             "href": "/mails"
           },
           {
-            "label": "Visuels",
+            "label": "Visuals",
             "href": "/visuels"
           }
         ]
       },
       {
-        "header": "Référence",
+        "header": "Reference",
         "items": [
           {
-            "label": "Charte CYRUSS",
+            "label": "CYRUSS brand charter",
             "href": "/charte"
           },
           {
-            "label": "Guide d'usage",
+            "label": "Usage guide",
             "href": "/guide"
           },
           {
-            "label": "Questions fréquentes",
+            "label": "Questions you'll be asked",
             "href": "/faq"
           }
         ]
       }
     ]
   },
-  "description": "Kit de partage pour les agents et partenaires du réseau CYRUSS. Textes prêts à coller, briefs visuels et guide d'usage.",
+  "description": "Sharing kit for the agents and partners of the CYRUSS network. Ready-to-paste posts, visual briefs and a usage guide.",
   "appearance": {
     "default": "light"
   },
@@ -107,7 +107,7 @@
     }
   },
   "banner": {
-    "content": "**Kit v2** · Les codes parrain ne sont pas encore actifs. Ne publie pas encore ton lien.",
+    "content": "**Kit v2 · English review version.** Referral codes are not live yet. Do not publish your link.",
     "dismissible": true
   },
   "icons": {
