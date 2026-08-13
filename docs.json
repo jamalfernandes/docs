@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "willow",
   "name": "CYRUSS · Kit Agents",
   "colors": {
     "primary": "#367AFF",
@@ -17,6 +17,8 @@
           "textes",
           "mails",
           "visuels",
+          "exemples",
+          "charte",
           "guide",
           "faq"
         ]
@@ -35,7 +37,11 @@
     "dark": "/logo/cyruss.png"
   },
   "navbar": {
-    "links": []
+    "primary": {
+      "type": "button",
+      "label": "cyruss.ai",
+      "href": "https://cyruss.ai"
+    }
   },
   "contextual": {
     "options": [
@@ -50,11 +56,65 @@
     ]
   },
   "footer": {
-    "socials": {}
+    "links": [
+      {
+        "header": "Le kit",
+        "items": [
+          {
+            "label": "Textes prêts à coller",
+            "href": "/textes"
+          },
+          {
+            "label": "Mails prêts à envoyer",
+            "href": "/mails"
+          },
+          {
+            "label": "Visuels",
+            "href": "/visuels"
+          }
+        ]
+      },
+      {
+        "header": "Référence",
+        "items": [
+          {
+            "label": "Charte CYRUSS",
+            "href": "/charte"
+          },
+          {
+            "label": "Guide d'usage",
+            "href": "/guide"
+          },
+          {
+            "label": "Questions fréquentes",
+            "href": "/faq"
+          }
+        ]
+      }
+    ]
   },
   "description": "Kit de partage pour les agents et partenaires du réseau CYRUSS. Textes prêts à coller, briefs visuels et guide d'usage.",
   "appearance": {
-    "default": "light",
-    "strict": true
+    "default": "light"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Figtree",
+      "weight": 700
+    },
+    "body": {
+      "family": "Figtree"
+    }
+  },
+  "background": {
+    "decoration": "gradient",
+    "color": {
+      "light": "#FEFEFE",
+      "dark": "#252525"
+    }
+  },
+  "banner": {
+    "content": "**Kit v2** · Les codes parrain ne sont pas encore actifs. Ne publie pas encore ton lien.",
+    "dismissible": true
   }
 }
