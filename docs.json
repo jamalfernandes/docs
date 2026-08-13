@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "mint",
   "name": "CYRUSS · Kit Agents",
   "colors": {
     "primary": "#367AFF",
@@ -104,13 +104,6 @@
     },
     "body": {
       "family": "Figtree"
-    }
-  },
-  "background": {
-    "decoration": "gradient",
-    "color": {
-      "light": "#FEFEFE",
-      "dark": "#252525"
     }
   },
   "banner": {
