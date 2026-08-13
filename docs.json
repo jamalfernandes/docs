@@ -9,15 +9,6 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
     "groups": [
       {
         "group": "Le kit",
@@ -59,8 +50,7 @@
     ]
   },
   "footer": {
-    "socials": {
-    }
+    "socials": {}
   },
   "description": "Kit de partage pour les agents et partenaires du réseau CYRUSS. Textes prêts à coller, briefs visuels et guide d'usage.",
   "appearance": {
