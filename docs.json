@@ -40,8 +40,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/cyruss.png",
+    "dark": "/logo/cyruss.png"
   },
   "navbar": {
     "links": []
@@ -62,5 +62,9 @@
     "socials": {
     }
   },
-  "description": "Kit de partage pour les agents et partenaires du réseau CYRUSS. Textes prêts à coller, briefs visuels et guide d'usage."
+  "description": "Kit de partage pour les agents et partenaires du réseau CYRUSS. Textes prêts à coller, briefs visuels et guide d'usage.",
+  "appearance": {
+    "default": "light",
+    "strict": true
+  }
 }
