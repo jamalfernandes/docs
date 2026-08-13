@@ -116,5 +116,8 @@
   "banner": {
     "content": "**Kit v2** · Les codes parrain ne sont pas encore actifs. Ne publie pas encore ton lien.",
     "dismissible": true
+  },
+  "icons": {
+    "library": "lucide"
   }
 }
